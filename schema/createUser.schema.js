@@ -1,4 +1,3 @@
-// Define the schema before using it
 export const createUserSchemaData = {
     type: "object",
     properties: {

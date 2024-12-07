@@ -8,5 +8,19 @@ const updateUserData = {
     "job": "zion resident"
 }
 
+const loginUserData = {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
 
-export { createUserData, updateUserData };
+const loginUserInvalidData = {
+    "email": "peter@klaven"
+}
+
+
+export {
+    createUserData,
+    updateUserData,
+    loginUserData,
+    loginUserInvalidData
+};
